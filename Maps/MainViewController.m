@@ -278,26 +278,6 @@
     }
   }];
   
-  //Testing push notifications
-  /*PFQuery *pushQuery = [PFInstallation query];
-  [pushQuery whereKey:@"user" equalTo:request.user];
-  [PFPush sendPushMessageToQueryInBackground:pushQuery
-                                 withMessage:@"Someone has sent you a photo!"];
-  NSDictionary *theMessage = @{@"message":@"Someone has sent you a photo!"};
-  [PFPush handlePush:theMessage];*/
-  
-  //Testing push notifications
-  PFQuery *pushQuery = [PFInstallation query];
-  PFInstallation *theInstallRightNow = [PFInstallation currentInstallation];
-  [pushQuery whereKey:@"installationId" equalTo:theInstallRightNow.installationId];
-  //PFUser *user = [PFUser currentUser];
-  NSString *message = [NSString stringWithFormat:@"You have received a photo!"];
-  
-  PFPush *push = [[PFPush alloc] init];
-  [push setQuery:pushQuery]; // Set our Installation query
-  [push setMessage:message];
-  [push sendPushInBackground];
-  
   [request.photos addObject:photoObj];
   NSMutableArray *completers = [[NSMutableArray alloc] init];
   [completers addObject:[PFUser currentUser]];

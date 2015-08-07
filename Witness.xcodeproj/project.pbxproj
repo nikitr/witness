@@ -36,7 +36,6 @@
 		6769A46F1B505B0C005C177F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6769A46E1B505B0C005C177F /* MobileCoreServices.framework */; };
 		6769A4711B505B11005C177F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6769A4701B505B11005C177F /* QuartzCore.framework */; };
 		6769A4731B505B1B005C177F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6769A4721B505B1B005C177F /* Security.framework */; };
-		6769A4751B505B23005C177F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6769A4741B505B23005C177F /* StoreKit.framework */; };
 		6769A4771B505B30005C177F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6769A4761B505B30005C177F /* SystemConfiguration.framework */; };
 		6769A4791B505B39005C177F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6769A4781B505B39005C177F /* libz.dylib */; };
 		6769A47B1B505B45005C177F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6769A47A1B505B45005C177F /* libsqlite3.dylib */; };
@@ -84,6 +83,7 @@
 		C78A32571B701F1F00CE582C /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = C78A32561B701F1F00CE582C /* photo.png */; };
 		C79F675B1B6ACE7000005A54 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = C79F675A1B6ACE7000005A54 /* User.m */; };
 		C79F675D1B6AD60D00005A54 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = C79F675C1B6AD60D00005A54 /* pin.png */; };
+		C7DB5EA11B75620E000D7908 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DB5EA01B75620E000D7908 /* StoreKit.framework */; };
 		D48091E7A8FF92F7E97B77AC /* libPods-Witness.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B14EFE68AEBC66A807BC233E /* libPods-Witness.a */; };
 /* End PBXBuildFile section */
 
@@ -143,7 +143,6 @@
 		6769A46E1B505B0C005C177F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		6769A4701B505B11005C177F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6769A4721B505B1B005C177F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		6769A4741B505B23005C177F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		6769A4761B505B30005C177F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6769A4781B505B39005C177F /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		6769A47A1B505B45005C177F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -219,6 +218,7 @@
 		C79F67591B6ACE7000005A54 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		C79F675A1B6ACE7000005A54 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		C79F675C1B6AD60D00005A54 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		C7DB5EA01B75620E000D7908 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		E1097B3F939B75AB265DF9AE /* Pods-Witness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Witness.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Witness/Pods-Witness.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -232,7 +232,6 @@
 				6769A47B1B505B45005C177F /* libsqlite3.dylib in Frameworks */,
 				6769A4791B505B39005C177F /* libz.dylib in Frameworks */,
 				6769A4771B505B30005C177F /* SystemConfiguration.framework in Frameworks */,
-				6769A4751B505B23005C177F /* StoreKit.framework in Frameworks */,
 				6769A4731B505B1B005C177F /* Security.framework in Frameworks */,
 				67A6B0631B5642C5001D37B5 /* FBSDKCoreKit.framework in Frameworks */,
 				6769A4711B505B11005C177F /* QuartzCore.framework in Frameworks */,
@@ -243,6 +242,7 @@
 				6769A4691B505AF0005C177F /* CFNetwork.framework in Frameworks */,
 				67A6B0641B5642C5001D37B5 /* FBSDKLoginKit.framework in Frameworks */,
 				6769A4671B505AE6005C177F /* AudioToolbox.framework in Frameworks */,
+				C7DB5EA11B75620E000D7908 /* StoreKit.framework in Frameworks */,
 				6769A4641B505AAF005C177F /* Bolts.framework in Frameworks */,
 				670F1FD31B4F034C001195B0 /* AddressBookUI.framework in Frameworks */,
 				6769A4651B505AAF005C177F /* Parse.framework in Frameworks */,
@@ -461,13 +461,13 @@
 		6769A4811B5060C9005C177F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C7DB5EA01B75620E000D7908 /* StoreKit.framework */,
 				67A6B0601B5642C5001D37B5 /* FBSDKCoreKit.framework */,
 				67A6B0611B5642C5001D37B5 /* FBSDKLoginKit.framework */,
 				67A6B0621B5642C5001D37B5 /* FBSDKShareKit.framework */,
 				6769A47E1B505B55005C177F /* Social.framework */,
 				6769A47C1B505B50005C177F /* Accounts.framework */,
 				6769A4761B505B30005C177F /* SystemConfiguration.framework */,
-				6769A4741B505B23005C177F /* StoreKit.framework */,
 				6769A4721B505B1B005C177F /* Security.framework */,
 				6769A4701B505B11005C177F /* QuartzCore.framework */,
 				6769A46E1B505B0C005C177F /* MobileCoreServices.framework */,
@@ -644,6 +644,11 @@
 					672A58B71B4BA40C0038D6DC = {
 						CreatedOnToolsVersion = 6.3.2;
 						DevelopmentTeam = FMPMAST3RJ;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 					672A58D01B4BA40C0038D6DC = {
 						CreatedOnToolsVersion = 6.3.2;
