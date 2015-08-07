@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  Witness
+//
+//  Created by Sean Vasquez on 7/25/15.
+//  Copyright (c) 2015 Sean Vasquez. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#ifndef Witness_PrefixHeader_pch
+#define Witness_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
